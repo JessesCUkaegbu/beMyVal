@@ -3,7 +3,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-color: #eb375e;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/background-img.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fixed background image */
 }
 
 #noButton {
